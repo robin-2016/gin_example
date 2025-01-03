@@ -1,0 +1,14 @@
+Port: ":8080"
+
+DB:
+  Name: "postgres"
+  Host: "localhost"
+  Port: "5432"
+  User: "postgres"
+  Password: "example"
+
+Log:
+  Level: "info"
+  MaxSize: 500
+  MaxBackups: 5
+  MaxAge: 30
